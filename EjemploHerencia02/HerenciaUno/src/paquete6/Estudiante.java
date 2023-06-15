@@ -4,7 +4,7 @@ package paquete6;
 public class Estudiante {
 
     protected String nombresEstudiante;
-    private String apellidosEstudiante;
+    protected String apellidosEstudiante;
     protected String identificacionEstudiante;
     protected int edadEstudiante;
     

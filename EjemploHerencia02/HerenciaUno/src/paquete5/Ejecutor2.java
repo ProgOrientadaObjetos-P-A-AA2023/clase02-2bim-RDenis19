@@ -43,6 +43,7 @@ public class Ejecutor2 {
             listado [i] = presencial;
             
         }
+        
         for (int i = 0; i < listado.length; i++) {
             System.out.println(listado[i]);
         }
