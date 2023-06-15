@@ -12,5 +12,13 @@ package paquete4;
 public class Ejecutor2 {
     public static void main(String[] args) {
         // 1. Crear y presentar un obj de tipo Estudiante Presencial
+        EstudiantePresencial ePresencial = new EstudiantePresencial("Denis",
+                "Ruiz", "1150343497", 19);
+        
+        ePresencial.establecerNumeroCreditos(6);
+        ePresencial.establecerCostoCredito(300.5);
+        ePresencial.calcularMatriculaPresencial();
+        
+        System.out.println(ePresencial);
     }
 }

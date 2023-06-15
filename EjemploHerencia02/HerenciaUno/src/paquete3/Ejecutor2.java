@@ -38,7 +38,7 @@ public class Ejecutor2 {
         
         System.out.println(cadenaFinal);
         
-        System.out.println("--------------------------");
+        System.out.println("-------------------------");
         estDistancia.establecerApellidoEstudiante("Elizalde Solano");
         
         String cadenaFinal2 = String.format("%s", estDistancia);
